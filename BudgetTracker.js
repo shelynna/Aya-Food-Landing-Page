@@ -11,17 +11,17 @@ export default class BudgetTracker {
         this.load();
     }
 
-    static html() {
-        return `
+    // static html() {
+    //     return `
             
-        `;
-    }
+    //     `;
+    // }
 
-    static entryHtml() {
-        return `
+    // static entryHtml() {
+    //     return `
            
-        `;
-    }
+    //     `;
+    // }
 
     load() {
         const entries = JSON.parse(localStorage.getItem("budget-tracker-entries-dev") || "[]");
